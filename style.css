@@ -1,0 +1,78 @@
+
+.main{
+    height: 98vh;
+    width: 100%;
+    background-image: url(https://thumbs.dreamstime.com/b/%D0%B3%D0%BE-%D0%BE%D1%81-%D1%81-%D0%BE%D0%B2%D0%B0-%D0%B2-%D1%84%D0%BE%D1%80%D0%BC%D0%B5-%D0%BF%D0%BE%D1%80%D1%82%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D1%84%D0%BE%D0%BD%D0%B0-%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%B0-97437950.jpg);
+    background-position: left ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-box{
+    width: 25%;
+    height: 50vh;
+    background-color: #dadada;
+    padding: 60px;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px black;
+}
+
+h2{
+    font-family: 'Gabarito', sans-serif;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'AR One Sans', sans-serif;
+    font-size: 1rem;
+    color: darkgray;
+}
+
+.input-field{
+    padding-top: 30px;
+    margin: 5px;
+}
+
+textarea{
+    width: 30vw;
+    height: 15vh;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid gray;
+    font-family: 'Gabarito', sans-serif;
+    outline: none;
+    resize: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn{
+    padding-top: 25px;
+}
+
+button{
+    width: 15vh;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: wheat;
+    padding: 10px;
+    font-family: 'AR One Sans', sans-serif;
+    transition: 0.5s ease;
+}
+
+button:hover{
+    background-color: #0000ff;
+    color: white;
+}
